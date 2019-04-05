@@ -44,7 +44,6 @@ server.post('/smurfs', (req, res) => {
       res
     );
   }
-
   smurfs.push(newSmurf);
   smurfId++;
   res.json(smurfs);
